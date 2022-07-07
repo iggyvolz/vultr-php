@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "087da322ffd7515e88dafcbd3d6e96b6",
+    "content-hash": "5654ea906c2e8791e0ca527b3a152383",
     "packages": [
         {
             "name": "json-mapper/json-mapper",
@@ -3312,7 +3312,7 @@
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
-        "php": "^7.4",
+        "php": ">=7.4",
         "ext-json": "*"
     },
     "platform-dev": [],

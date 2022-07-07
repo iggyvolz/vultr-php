@@ -28,7 +28,7 @@
         "php-http/curl-client": "A PSR Compatible HTTP Client Library"
     },
     "require": {
-        "php": "^7.4",
+        "php": ">=7.4",
         "ext-json": "*",
         "json-mapper/json-mapper": "^2.10",
         "psr/http-client": "^1.0",
