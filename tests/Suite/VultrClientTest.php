@@ -52,16 +52,4 @@ class VultrClientTest extends VultrTest
 		$this->expectException(VultrException::class);
 		$constructor->invokeArgs($mock, ['Test1234', $guzzle_client, $guzzle_factory, $guzzle_factory, $guzzle_factory]);
 	}
-
-	public function testServiceHandle()
-	{
-		$client = VultrClient::create('Test1234');
-
-		foreach ((new ReflectionClass(VultrClient::class))->getConstant('MAP') as $prop => $class)
-		{
-			$this->assertInstanceOf($class, $client->$prop);
-		}
-
-		$this->assertNull($client->randomstuff);
-	}
 }
